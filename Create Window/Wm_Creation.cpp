@@ -3,7 +3,7 @@
 class CMyFrame : public CFrameWnd {
 public:
 	CMyFrame() {
-		Create(NULL, _T("MFC APP WINDOW CREATION"));
+		Create(NULL, _T("MFC APP WINDOW CREATION"),WS_SYSMENU);
 	}
 };
 
